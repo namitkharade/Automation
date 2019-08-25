@@ -7,9 +7,9 @@ function create() {
     cd Desktop/Project/$1
     git init
     git config --global user.email "namitkharade.com"
-    git remote add origin git@github.com:NamitKharade/$1.git
+    git remote add github git@github.com:NamitKharade/$1.git
     touch README.md
     git add .
     git commit -m "Initial commit"
-    git push -u origin master   
+    git push -u github master   
 }
