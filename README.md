@@ -1,7 +1,7 @@
 # Automation
 
 **Requirements:**
-- Python 2.7.X 
+- Python 3
 - Visual Studio Code 
 - Windows Machine 
 
